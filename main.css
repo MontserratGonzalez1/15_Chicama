@@ -26,8 +26,13 @@ header {
 	background-color:#EE840D;
 	width: 160px;
 	height: 50px;
-	margin-top: 50px;}
+	margin-top: 50px;
+	display:block;
+	font-family: Arial;
+	font-size: 16px;
+	}
 
+input
 
 	/* TIPOGRAFIA EN GENERAL */
 #letra {
@@ -61,5 +66,35 @@ hr{ margin-bottom: 50px;}
 .tex-pie { 
 		margin-top: 30px;
 		color: white;
-		font-size: 50px; 
+		font-size: 15px; 
 	}
+
+/* BOTON LABORATORIA */
+.efectors{
+display:block!important;
+-webkit-transition:-webkit-transform 1s ease-out;
+-moz-transition:-moz-transform 1s ease-out;
+-o-transition:-o-transform 1s ease-out;
+-ms-transition:-ms-transform 1s ease-out;
+transition:transform 1s ease-out;
+}
+
+.efectors:hover{
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1)
+}
+
+.opacity img {
+filter:alpha(opacity=90);
+-moz-opacity: 0.9;
+opacity: 0.9;
+margin-top: 20px;}
+
+.opacity:hover img {
+filter:alpha(opacity=110);
+-moz-opacity: 1.1;
+opacity: 1.1;
+}
