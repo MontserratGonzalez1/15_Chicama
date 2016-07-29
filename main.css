@@ -1,0 +1,65 @@
+header { 
+	background-image: url(img/grupal.jpg);
+	padding-bottom: 500px;
+	background-size: cover;
+
+ }
+
+	/*LISTA NAVEGADOR */
+#navlist li{
+	list-style: none; 
+	display: inline;	
+}
+
+	/* LOGO LABORATORIA */
+.logo { 
+	height: 60px;
+	width:370px;
+	margin-top: 50px;
+	margin-left: 45px;
+	
+}	
+
+	/* BOTON*/
+.nar { 
+	padding: 15px 45px 15px 45px;
+	background-color:#EE840D;
+	width: 160px;
+	height: 50px;
+	margin-top: 50px;}
+
+
+	/* TIPOGRAFIA EN GENERAL */
+#letra {
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.letra-nav {
+	font-family: Arial;
+	font-size: 18px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+ 
+	/* FOTOS CHICAS */
+.chica {
+	height: 190px;
+	width: 280px;
+	margin-top: 60px;
+}
+
+hr{ margin-bottom: 50px;}
+
+	/* FOOTER */
+.pie {
+	background-color: gray;
+	height: 100px;
+}
+
+.tex-pie { 
+		margin-top: 30px;
+		color: white;
+		font-size: 50px; 
+	}
